@@ -232,8 +232,7 @@
       `;
     } else {
       fileDisplay.innerHTML = `
-        <p class="text-gray-500 font-medium">Drag & drop your file here or click to upload</p>
-        <p class="text-sm text-gray-400">Accepted formats: .pdf, images</p>
+        <p class="text-gray-500 font-medium">Σύρετε και αφήστε το αποδεικτικό εδώ ή κλικ για να το φορτώσετε</p>
       `;
     }
   });
@@ -252,7 +251,7 @@
         if (cardPayment.checked) {
           window.location.href = 'https://checkout.revolut.com/pay/2c211a66-cfe3-4201-be0e-6a71b5709e4c';
         } else if (bankTransfer.checked && proofField.files.length > 0) {
-          window.location.href = 'https://abhinavkm.github.io/thankyou-page/';
+          window.location.href = 'https://changeland.github.io/thankyou/';
         }
       } catch (error) {
         console.error('Error:', error);
